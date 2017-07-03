@@ -18,30 +18,31 @@ if version >= 700
   hi CursorLine   guibg=#262626 gui=NONE ctermbg=234 cterm=NONE
   hi CursorColumn guifg=#ffffff guibg=#303030 ctermbg=238
   hi MatchParen   guifg=#ffaf00 guibg=NONE gui=bold ctermfg=214 ctermbg=NONE cterm=bold
-  hi Pmenu        guifg=#eeeeee guibg=#444444 ctermfg=255 ctermbg=238
-  hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=172
-  hi search       guifg=#ff00ff guibg=NONE gui=underline ctermfg=201 ctermbg=NONE cterm=underline
-  hi Incsearch    guifg=#ff00ff guibg=NONE gui=underline ctermfg=201 ctermbg=NONE cterm=underline
+  hi Pmenu        guifg=#eeeeee guibg=#444444 ctermfg=255 ctermbg=0
+  hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=14
+  hi search       guifg=#ff00ff guibg=NONE gui=underline ctermfg=0 ctermbg=159 cterm=NONE
+  hi Incsearch    guifg=#ff00ff guibg=NONE gui=underline ctermfg=0 ctermbg=159 cterm=NONE
 endif
 
 " General colors
 hi Cursor         guifg=#000000 guibg=#d0d0d0 ctermfg=0 ctermbg=252
 hi NonText        guifg=#5f5fff ctermfg=63
-hi Normal         guifg=#bcbcbc guibg=#1c1c1c ctermfg=250 ctermbg=233
+hi Normal         guifg=#bcbcbc guibg=#1c1c1c ctermfg=250 ctermbg=0
 hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
-hi colorColumn    guibg=#000080 ctermbg=4
+hi colorColumn    guibg=#000080 ctermbg=234
 hi Directory      guifg=#00ffff guibg=NONE ctermfg=14 ctermbg=NONE
 hi LineNr         guifg=#808080 guibg=NONE ctermfg=244 ctermbg=NONE
-hi StatusLine     guifg=#005f5f guibg=#080808 gui=underline ctermfg=23 ctermbg=232 cterm=underline term=underline
+hi StatusLine     guifg=#005f5f guibg=#080808 gui=underline ctermfg=87 ctermbg=232 cterm=NONE term=NONE
 hi StatusLineNC   guifg=#585858 guibg=#080808 ctermfg=240 ctermbg=232
-hi VertSplit      guifg=#444444 guibg=#585858 ctermfg=238 ctermbg=240
+hi VertSplit      guifg=#444444 guibg=#585858 ctermfg=234 ctermbg=234
 hi Folded         guifg=#005f5f guibg=#080808 ctermfg=23 ctermbg=0
-hi Title          guifg=#df8700 ctermfg=172
+hi Title          guifg=#df8700 ctermfg=147
 hi ErrorMsg       guifg=#ffffff guibg=#ff0000 gui=NONE ctermfg=15 ctermbg=9 cterm=NONE
-hi Error          guifg=#ffffff guibg=#ff0000 gui=underline ctermfg=15 ctermbg=9 cterm=underline
+hi Error          guifg=#ffffff guibg=#ff0000 gui=underline ctermfg=15 ctermbg=9 cterm=NONE
 hi Visual         guifg=#afffff guibg=#4e4e4e gui=bold ctermfg=159 ctermbg=239 cterm=bold
 hi SpecialKey     guifg=#808080 ctermfg=244 guibg=NONE ctermbg=NONE
 hi WarningMsg     guifg=#afffff ctermfg=159
+hi EndOfBuffer    guifg=#000000 ctermfg=0
 
 " Syntax highlighting
 hi Comment        guifg=#808080 ctermfg=244
