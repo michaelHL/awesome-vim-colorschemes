@@ -28,9 +28,9 @@ endif
 hi Cursor         guifg=#000000 guibg=#d0d0d0 ctermfg=0 ctermbg=252
 hi NonText        guifg=#5f5fff ctermfg=63
 hi Normal         guifg=#bcbcbc guibg=#1c1c1c ctermfg=250 ctermbg=0
-hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
+hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE cterm=NONE
 hi colorColumn    guibg=#000080 ctermbg=234
-hi Directory      guifg=#00ffff guibg=NONE ctermfg=14 ctermbg=NONE
+hi Directory      guifg=#00ffff guibg=NONE ctermfg=NONE ctermbg=NONE
 hi LineNr         guifg=#808080 guibg=NONE ctermfg=244 ctermbg=NONE
 hi StatusLine     guifg=#005f5f guibg=#080808 gui=underline ctermfg=87 ctermbg=232 cterm=NONE term=NONE
 hi StatusLineNC   guifg=#585858 guibg=#080808 ctermfg=240 ctermbg=232
